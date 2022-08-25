@@ -1,9 +1,10 @@
-import React from 'react';
+import React      from 'react';
+import PostCreate from "./PostCreate";
 
 function Home ( props ) {
     return (
         <>
-        Home
+        <PostCreate/>
         </>
     );
 }
